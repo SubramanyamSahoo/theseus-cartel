@@ -1,0 +1,50 @@
+[
+  {
+    "available": true,
+    "bootstrap_draws": 10000,
+    "ci_high": 0.44263105420753535,
+    "ci_low": -1.336304524233804,
+    "clusters": 11,
+    "effect": -0.4280255859468006,
+    "family_size": 3,
+    "interval": "dataset-stratified product-cluster percentile bootstrap; Bonferroni tails",
+    "left": "sequential_full",
+    "matched_trials": 13,
+    "p_value": 0.34375,
+    "right": "simultaneous_delayed",
+    "sign_flip_assumption": "symmetric null distribution of product differences",
+    "sign_flip_exact": true
+  },
+  {
+    "available": true,
+    "bootstrap_draws": 10000,
+    "ci_high": 0.21569756094603626,
+    "ci_low": -0.0801112150781585,
+    "clusters": 11,
+    "effect": 0.07209830768201564,
+    "family_size": 3,
+    "interval": "dataset-stratified product-cluster percentile bootstrap; Bonferroni tails",
+    "left": "sequential_full",
+    "matched_trials": 13,
+    "p_value": 0.3125,
+    "right": "sequential_drop_pre",
+    "sign_flip_assumption": "symmetric null distribution of product differences",
+    "sign_flip_exact": true
+  },
+  {
+    "available": true,
+    "bootstrap_draws": 10000,
+    "ci_high": 0.062183554906264156,
+    "ci_low": -0.9677299706679409,
+    "clusters": 11,
+    "effect": -0.34444717936451397,
+    "family_size": 3,
+    "interval": "dataset-stratified product-cluster percentile bootstrap; Bonferroni tails",
+    "left": "sequential_full",
+    "matched_trials": 13,
+    "p_value": 0.2109375,
+    "right": "sequential_competitive",
+    "sign_flip_assumption": "symmetric null distribution of product differences",
+    "sign_flip_exact": true
+  }
+]

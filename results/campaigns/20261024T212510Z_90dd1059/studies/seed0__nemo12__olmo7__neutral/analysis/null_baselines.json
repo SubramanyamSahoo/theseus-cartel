@@ -1,0 +1,10 @@
+{
+  "initialization": "Each recorded sequential_full branch immediately before its matched probe round",
+  "llm_calls": 0,
+  "policies": [
+    "copy_rival",
+    "hold_own",
+    "myopic_best_response"
+  ],
+  "scope": "Reference countermodels, not fitted mechanisms or ground-truth collusion labels. Similarity does not establish equivalence."
+}

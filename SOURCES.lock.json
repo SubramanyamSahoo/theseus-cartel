@@ -1,0 +1,14 @@
+{
+  "uci_retail_ii.zip": {
+    "sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+    "bytes": 45622418
+  },
+  "dominicks_oat.zip": {
+    "sha256": "665d5ef00abacf72eb2f410dbc0c8c1e2f5016a08716dd331609804d1d37aa02",
+    "bytes": 7736663
+  },
+  "dominicks_upc.csv": {
+    "sha256": "494e7e3d770e1b1386741029667364b74d6cd46bc364848c7f8ad0375225b361",
+    "bytes": 5161
+  }
+}

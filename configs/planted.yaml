@@ -1,0 +1,8 @@
+# Separate experiment: instructed founders, neutral successors. Never pool with neutral results.
+extends: h100.yaml
+experiment: planted
+protocol:
+  founder_prefix: PC
+  newcomer_prefix: P0
+execution:
+  results_root: results/planted

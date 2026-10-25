@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 1,
+    "terminal_gain": 0.10876227207257436
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 1,
+    "terminal_gain": -1.0263963855996647
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 1,
+    "terminal_gain": 0.3438428708498913
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 1,
+    "terminal_gain": -0.3131827975382613
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 1,
+    "terminal_gain": 0.3025739952454234
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 1,
+    "terminal_gain": -0.6430177471178193
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 1,
+    "terminal_gain": 0.3487979924331402
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 1,
+    "terminal_gain": 0.16315505014098258
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 1,
+    "terminal_gain": 0.8669197884812083
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 1,
+    "terminal_gain": -0.09062232889976599
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 1,
+    "terminal_gain": 0.7886311073896668
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 1,
+    "terminal_gain": 0.583267656626925
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 1,
+    "terminal_gain": 0.2310406434908639
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 1,
+    "terminal_gain": -1.936258040972398
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 1,
+    "terminal_gain": 0.45033736315192413
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 1,
+    "terminal_gain": -1.9449644654263278
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 1,
+    "terminal_gain": 0.41250301971576375
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 1,
+    "terminal_gain": -1.9241696804201909
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 1,
+    "terminal_gain": -0.2427001657221195
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 1,
+    "terminal_gain": -1.9458606805877579
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 1,
+    "terminal_gain": 0.6735081143648649
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 1,
+    "terminal_gain": -1.8687186636630246
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 1,
+    "terminal_gain": -0.851714709420638
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 1,
+    "terminal_gain": -1.6861776041484113
+  }
+]

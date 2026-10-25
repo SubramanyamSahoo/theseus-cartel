@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 2,
+    "terminal_gain": 0.7719491669313074
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 2,
+    "terminal_gain": -1.2246530383375545
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 2,
+    "terminal_gain": 0.25381578866928084
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 2,
+    "terminal_gain": -0.05265743098772106
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 2,
+    "terminal_gain": -9.57781393617e-09
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 2,
+    "terminal_gain": -0.7562863885444129
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 2,
+    "terminal_gain": 0.07792902284666406
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 2,
+    "terminal_gain": 0.12895923132261053
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 2,
+    "terminal_gain": 2.0586742385201886e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 2,
+    "terminal_gain": -0.6067496111690592
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 2,
+    "terminal_gain": 2.988804295907718e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 2,
+    "terminal_gain": -0.12541347777452844
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 2,
+    "terminal_gain": 0.1932131687915622
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 2,
+    "terminal_gain": -1.9409177785494742
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 2,
+    "terminal_gain": -5.431226652282353e-16
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 2,
+    "terminal_gain": -1.9458195365859763
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 2,
+    "terminal_gain": 0.6623363982333721
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 2,
+    "terminal_gain": -1.9219899897809127
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 2,
+    "terminal_gain": 0.36019535096051414
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 2,
+    "terminal_gain": -1.810857715699583
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 2,
+    "terminal_gain": -1.9455579267265786
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 2,
+    "terminal_gain": -1.3641619715359141
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 2,
+    "terminal_gain": 0.29651255162948775
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 2,
+    "terminal_gain": -1.2851827853348525
+  }
+]

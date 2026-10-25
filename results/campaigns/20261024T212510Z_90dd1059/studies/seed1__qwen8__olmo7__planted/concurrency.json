@@ -1,0 +1,45 @@
+{
+  "limits": {
+    "founder": 64,
+    "replacement": 64
+  },
+  "measurements": [
+    {
+      "concurrency_per_model": 8,
+      "errors": [],
+      "rates": [
+        29.77404133911068,
+        33.753983563785816
+      ],
+      "requests_per_second": 31.76401245144825
+    },
+    {
+      "concurrency_per_model": 16,
+      "errors": [],
+      "rates": [
+        51.709916700478786,
+        43.701595438765764
+      ],
+      "requests_per_second": 47.705756069622275
+    },
+    {
+      "concurrency_per_model": 32,
+      "errors": [],
+      "rates": [
+        62.303098358605155,
+        57.90335300882127
+      ],
+      "requests_per_second": 60.10322568371321
+    },
+    {
+      "concurrency_per_model": 64,
+      "errors": [],
+      "rates": [
+        79.39338585402542,
+        41.07558323433384
+      ],
+      "requests_per_second": 60.23448454417964
+    }
+  ],
+  "scope": "Best measured symmetric candidate with both engines active on development prompts; not a global optimum"
+}

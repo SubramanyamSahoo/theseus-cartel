@@ -1,0 +1,109 @@
+{
+  "created_utc": "2026-10-25T03:23:31.788417+00:00",
+  "gpu": {
+    "driver_version": "580.105.08",
+    "name": "NVIDIA H100 PCIe",
+    "total_bytes": 85520809984,
+    "used_bytes": 565182464
+  },
+  "measured_contexts": {
+    "founder": {
+      "maximum_prompt_tokens": 1805,
+      "reference_context_tokens": 2377,
+      "sample_count": 320
+    },
+    "replacement": {
+      "maximum_prompt_tokens": 1157,
+      "reference_context_tokens": 1567,
+      "sample_count": 320
+    }
+  },
+  "models": {
+    "founder": {
+      "gpu_memory_utilization": 0.5078708861167935,
+      "kv_bytes_per_token": 163840,
+      "kv_cache_bytes": 15716739276,
+      "max_num_seqs": 40,
+      "maximum_context_tokens": 4096,
+      "model_config": {
+        "architectures": [
+          "MistralForCausalLM"
+        ],
+        "attention_dropout": 0.0,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 5120,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "model_type": "mistral",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 40,
+        "num_key_value_heads": 8,
+        "rms_norm_eps": 1e-05,
+        "rope_theta": 1000000.0,
+        "sliding_window": null,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.0.dev0",
+        "use_cache": true,
+        "vocab_size": 131072
+      },
+      "overhead_bytes": 3221225472,
+      "reference_context_tokens": 2377,
+      "weight_bytes": 24495564800,
+      "weight_files": [
+        "model-00001-of-00005.safetensors",
+        "model-00002-of-00005.safetensors",
+        "model-00003-of-00005.safetensors",
+        "model-00004-of-00005.safetensors",
+        "model-00005-of-00005.safetensors"
+      ]
+    },
+    "replacement": {
+      "gpu_memory_utilization": 0.3921291138644976,
+      "kv_bytes_per_token": 524288,
+      "kv_cache_bytes": 15716739276,
+      "max_num_seqs": 19,
+      "maximum_context_tokens": 4096,
+      "model_config": {
+        "_name_or_path": "allenai/open_instruct_dev",
+        "architectures": [
+          "Olmo2ForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "eos_token_id": 100257,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 11008,
+        "max_position_embeddings": 4096,
+        "model_type": "olmo2",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 32,
+        "pad_token_id": 100277,
+        "rms_norm_eps": 1e-06,
+        "rope_scaling": null,
+        "rope_theta": 500000,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.47.0.dev0",
+        "use_cache": false,
+        "vocab_size": 100352
+      },
+      "overhead_bytes": 3221225472,
+      "reference_context_tokens": 1567,
+      "weight_bytes": 14597234688,
+      "weight_files": [
+        "model-00001-of-00003.safetensors",
+        "model-00002-of-00003.safetensors",
+        "model-00003-of-00003.safetensors"
+      ]
+    }
+  },
+  "scope": "Memory estimate; startup and measured throughput still determine feasibility"
+}

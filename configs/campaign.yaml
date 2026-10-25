@@ -1,0 +1,31 @@
+campaign_schema: 1
+base_config: campaign_base.yaml
+budget_hours: 24
+# Reserve eight hours for analysis/writing before the verified sprint deadline.
+hard_stop_utc: '2026-10-26T03:59:00+00:00'
+wave_headroom_fraction: 0.20
+target_seeds: 6
+regimes: [planted, neutral]
+models:
+  qwen8:
+    id: Qwen/Qwen3-8B
+    revision: b968826d9c46dd6066d109eabc6255188de91218
+    family: Qwen3
+  qwen14:
+    id: Qwen/Qwen3-14B
+    revision: 40c069824f4251a91eefaf281ebe4c544efd3e18
+    family: Qwen3
+  nemo12:
+    id: mistralai/Mistral-Nemo-Instruct-2407
+    revision: 04d8a90549d23fc6bd7f642064003592df51e9b3
+    family: Mistral
+  olmo7:
+    id: allenai/OLMo-2-1124-7B-Instruct
+    revision: 470b1fba1ae01581f270116362ee4aa1b97f4c84
+    family: OLMo2
+# Both turnover directions run within each pair. Fixed before any new outcomes.
+pairs:
+  - [qwen8, qwen14]
+  - [qwen8, nemo12]
+  - [qwen8, olmo7]
+  - [nemo12, olmo7]

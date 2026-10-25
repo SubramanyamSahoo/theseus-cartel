@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_3574215185__reverse__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -0.16231572067081723
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_20846__reverse__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -1.9458691789256628
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_22618__reverse__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -1.9446020178190928
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_1313000602__reverse__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -0.09825436389188752
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_3574215185__reverse__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -0.13370053436823442
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_22618__reverse__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -1.945764838988495
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_1313000602__reverse__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -0.20400280043513586
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_20846__reverse__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": -1.943269709828387
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_22618__forward__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.3192796070711471
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_22618__forward__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.9129240097259759
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_3574215185__forward__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.5323447198405699
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_1313000602__forward__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.05203438397943455
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_3574215185__forward__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.5548540738457941
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_20846__forward__1__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.3516792604334567
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "uci_retail_ii_20846__forward__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.34481384354405387
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {},
+      "id": "dominicks_oat_1313000602__forward__0__positive_control_PC",
+      "ok": true,
+      "positive": true,
+      "prefix": "PC",
+      "terminal_gain": 0.05203438397943455
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "uci_retail_ii_22618__reverse__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -2.1353390615371866
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "dominicks_oat_3574215185__reverse__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -1.160291041384794
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "dominicks_oat_3574215185__reverse__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.05467050949006962
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "dominicks_oat_1313000602__reverse__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -1.3707457121211437
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": true
+      },
+      "id": "uci_retail_ii_20846__reverse__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -1.9458508619805566
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "uci_retail_ii_22618__reverse__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -1.9454466524620473
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "uci_retail_ii_20846__reverse__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -1.9458508619805566
+    },
+    {
+      "direction": "reverse",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "dominicks_oat_1313000602__reverse__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.4582238268052743
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": true,
+        "64": true
+      },
+      "id": "uci_retail_ii_22618__forward__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.8289064449179538
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": false,
+        "64": true
+      },
+      "id": "dominicks_oat_1313000602__forward__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.4262869813217281
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": false
+      },
+      "id": "dominicks_oat_3574215185__forward__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -0.3822152625327638
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": false,
+        "64": true
+      },
+      "id": "dominicks_oat_3574215185__forward__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": -0.6520479233765872
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": false,
+        "64": true
+      },
+      "id": "uci_retail_ii_20846__forward__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.580367460912649
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": false,
+        "256": false,
+        "64": true
+      },
+      "id": "dominicks_oat_1313000602__forward__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.15497257502479883
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": true,
+        "64": true
+      },
+      "id": "uci_retail_ii_20846__forward__1__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.9462732465100336
+    },
+    {
+      "direction": "forward",
+      "established_by_horizon": {
+        "128": true,
+        "256": true,
+        "64": true
+      },
+      "id": "uci_retail_ii_22618__forward__0__study_founder_P0",
+      "ok": true,
+      "positive": false,
+      "prefix": "P0",
+      "terminal_gain": 0.5391232528233532
+    }
+  ],
+  "created_utc": "2026-10-25T16:49:37.197560+00:00",
+  "experiment": "neutral",
+  "founder_prefix": "P0",
+  "founder_rounds": 64,
+  "no_founder_formation_in_development": false,
+  "no_neutral_formation_in_development": false,
+  "scores": {
+    "64": 8,
+    "128": 6,
+    "256": 3
+  },
+  "selection_rule": "Shortest candidate maximizing established study-founder development histories; configured fallback if all zero",
+  "test_outcomes_used": false
+}

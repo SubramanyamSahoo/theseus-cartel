@@ -1,0 +1,13 @@
+{
+  "backend": "vllm",
+  "cache_hits_this_invocation": 9811,
+  "cluster_gate_passed": true,
+  "completed_utc": "2026-10-25T01:52:03.780482+00:00",
+  "failed_arms": 0,
+  "failed_test_positive_controls": 0,
+  "failure_rate_gate_passed": true,
+  "planned_arms": 312,
+  "planned_test_positive_controls": 24,
+  "quality_gate_passed": true,
+  "requests_this_invocation": 55695
+}

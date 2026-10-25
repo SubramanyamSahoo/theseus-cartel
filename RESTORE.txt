@@ -1,0 +1,5 @@
+Download every release asset into one directory, then run:
+sha256sum -c SHA256SUMS
+cat full-run.tar.gz.part-* > full-run.tar.gz
+printf '%s  full-run.tar.gz\n' "$(cat FULL_ARCHIVE_SHA256.txt)" | sha256sum -c -
+tar -xzf full-run.tar.gz

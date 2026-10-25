@@ -1,0 +1,43 @@
+{
+  "available": true,
+  "first_action_estimates": [
+    {
+      "available": true,
+      "bootstrap_draws": 10000,
+      "ci_high": -0.006219267842043165,
+      "ci_low": -0.10609685082022076,
+      "clusters": 12,
+      "effect": -0.050067947288810484,
+      "family_size": 2,
+      "holm_p_value": 0.0625,
+      "interval": "dataset-stratified product-cluster percentile bootstrap; Bonferroni tails",
+      "left": "simultaneous_notice_public",
+      "matched_trials": 24,
+      "p_value": 0.0625,
+      "right": "simultaneous_notice_private",
+      "sign_flip_assumption": "symmetric null distribution of product differences",
+      "sign_flip_exact": true
+    },
+    {
+      "available": true,
+      "bootstrap_draws": 10000,
+      "ci_high": 0.19171177154041882,
+      "ci_low": 0.017306624758988264,
+      "clusters": 12,
+      "effect": 0.08778429444819998,
+      "family_size": 2,
+      "holm_p_value": 0.0625,
+      "interval": "dataset-stratified product-cluster percentile bootstrap; Bonferroni tails",
+      "left": "simultaneous_notice_private",
+      "matched_trials": 24,
+      "p_value": 0.03125,
+      "right": "simultaneous_notice_placebo",
+      "sign_flip_assumption": "symmetric null distribution of product differences",
+      "sign_flip_exact": true
+    }
+  ],
+  "interpretation": "Disclosure sensitivity, not proof of common knowledge or intent. Wording and salience remain possible explanations.",
+  "missing_trials": [],
+  "paired_trials": 24,
+  "scope": "Per-block diagnostic; campaign inference is recomputed from complete balanced waves."
+}

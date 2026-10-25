@@ -1,0 +1,114 @@
+{
+  "created_utc": "2026-10-25T06:57:54.280990+00:00",
+  "gpu": {
+    "driver_version": "580.105.08",
+    "name": "NVIDIA H100 PCIe",
+    "total_bytes": 85520809984,
+    "used_bytes": 565182464
+  },
+  "measured_contexts": {
+    "founder": {
+      "maximum_prompt_tokens": 1815,
+      "reference_context_tokens": 2389,
+      "sample_count": 320
+    },
+    "replacement": {
+      "maximum_prompt_tokens": 1805,
+      "reference_context_tokens": 2377,
+      "sample_count": 320
+    }
+  },
+  "models": {
+    "founder": {
+      "gpu_memory_utilization": 0.40256070374498293,
+      "kv_bytes_per_token": 147456,
+      "kv_cache_bytes": 14824621260,
+      "max_num_seqs": 42,
+      "maximum_context_tokens": 4096,
+      "model_config": {
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 151643,
+        "eos_token_id": 151645,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 12288,
+        "max_position_embeddings": 40960,
+        "max_window_layers": 36,
+        "model_type": "qwen3",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 36,
+        "num_key_value_heads": 8,
+        "rms_norm_eps": 1e-06,
+        "rope_scaling": null,
+        "rope_theta": 1000000,
+        "sliding_window": null,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.51.0",
+        "use_cache": true,
+        "use_sliding_window": false,
+        "vocab_size": 151936
+      },
+      "overhead_bytes": 3221225472,
+      "reference_context_tokens": 2389,
+      "weight_bytes": 16381470720,
+      "weight_files": [
+        "model-00001-of-00005.safetensors",
+        "model-00002-of-00005.safetensors",
+        "model-00003-of-00005.safetensors",
+        "model-00004-of-00005.safetensors",
+        "model-00005-of-00005.safetensors"
+      ]
+    },
+    "replacement": {
+      "gpu_memory_utilization": 0.4974392962363082,
+      "kv_bytes_per_token": 163840,
+      "kv_cache_bytes": 14824621260,
+      "max_num_seqs": 38,
+      "maximum_context_tokens": 4096,
+      "model_config": {
+        "architectures": [
+          "MistralForCausalLM"
+        ],
+        "attention_dropout": 0.0,
+        "bos_token_id": 1,
+        "eos_token_id": 2,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 5120,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "model_type": "mistral",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 40,
+        "num_key_value_heads": 8,
+        "rms_norm_eps": 1e-05,
+        "rope_theta": 1000000.0,
+        "sliding_window": null,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.0.dev0",
+        "use_cache": true,
+        "vocab_size": 131072
+      },
+      "overhead_bytes": 3221225472,
+      "reference_context_tokens": 2377,
+      "weight_bytes": 24495564800,
+      "weight_files": [
+        "model-00001-of-00005.safetensors",
+        "model-00002-of-00005.safetensors",
+        "model-00003-of-00005.safetensors",
+        "model-00004-of-00005.safetensors",
+        "model-00005-of-00005.safetensors"
+      ]
+    }
+  },
+  "scope": "Memory estimate; startup and measured throughput still determine feasibility"
+}

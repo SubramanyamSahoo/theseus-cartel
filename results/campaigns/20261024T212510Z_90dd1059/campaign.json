@@ -1,0 +1,524 @@
+{
+  "blocks": [
+    {
+      "completed_utc": "2026-10-24T22:12:51.612554+00:00",
+      "elapsed_seconds": 2860.601249502999,
+      "id": "seed0__qwen8__qwen14__planted",
+      "pair": "qwen8__qwen14",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__qwen14__planted",
+      "started_utc": "2026-10-24T21:25:11.004541+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-24T23:10:48.455777+00:00",
+      "elapsed_seconds": 3476.8259014249998,
+      "id": "seed0__qwen8__qwen14__neutral",
+      "pair": "qwen8__qwen14",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__qwen14__neutral",
+      "started_utc": "2026-10-24T22:12:51.622474+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T00:11:35.028133+00:00",
+      "elapsed_seconds": 3646.551910453003,
+      "id": "seed0__qwen8__nemo12__planted",
+      "pair": "qwen8__nemo12",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__nemo12__planted",
+      "started_utc": "2026-10-24T23:10:48.468190+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T01:09:47.523132+00:00",
+      "elapsed_seconds": 3492.4800566079975,
+      "id": "seed0__qwen8__nemo12__neutral",
+      "pair": "qwen8__nemo12",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__nemo12__neutral",
+      "started_utc": "2026-10-25T00:11:35.038436+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T01:52:04.797553+00:00",
+      "elapsed_seconds": 2537.2636260239997,
+      "id": "seed0__qwen8__olmo7__planted",
+      "pair": "qwen8__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__olmo7__planted",
+      "started_utc": "2026-10-25T01:09:47.530317+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T02:35:09.071428+00:00",
+      "elapsed_seconds": 2584.2540038200023,
+      "id": "seed0__qwen8__olmo7__neutral",
+      "pair": "qwen8__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__qwen8__olmo7__neutral",
+      "started_utc": "2026-10-25T01:52:04.808573+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T03:23:28.974483+00:00",
+      "elapsed_seconds": 2899.883095161,
+      "id": "seed0__nemo12__olmo7__planted",
+      "pair": "nemo12__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__nemo12__olmo7__planted",
+      "started_utc": "2026-10-25T02:35:09.082515+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T04:13:50.095364+00:00",
+      "elapsed_seconds": 3021.109809624002,
+      "id": "seed0__nemo12__olmo7__neutral",
+      "pair": "nemo12__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed0__nemo12__olmo7__neutral",
+      "started_utc": "2026-10-25T03:23:28.981722+00:00",
+      "status": "complete",
+      "wave": 0
+    },
+    {
+      "completed_utc": "2026-10-25T05:03:16.511994+00:00",
+      "elapsed_seconds": 2965.358700194003,
+      "id": "seed1__qwen8__qwen14__planted",
+      "pair": "qwen8__qwen14",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__qwen14__planted",
+      "started_utc": "2026-10-25T04:13:51.145809+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T06:02:37.366913+00:00",
+      "elapsed_seconds": 3560.8342267359985,
+      "id": "seed1__qwen8__qwen14__neutral",
+      "pair": "qwen8__qwen14",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__qwen14__neutral",
+      "started_utc": "2026-10-25T05:03:16.524210+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T06:57:50.950966+00:00",
+      "elapsed_seconds": 3313.5625433230016,
+      "id": "seed1__qwen8__nemo12__planted",
+      "pair": "qwen8__nemo12",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__nemo12__planted",
+      "started_utc": "2026-10-25T06:02:37.379783+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T07:49:04.537989+00:00",
+      "elapsed_seconds": 3073.575745536,
+      "id": "seed1__qwen8__nemo12__neutral",
+      "pair": "qwen8__nemo12",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__nemo12__neutral",
+      "started_utc": "2026-10-25T06:57:50.957988+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T08:25:31.507050+00:00",
+      "elapsed_seconds": 2186.9570546620016,
+      "id": "seed1__qwen8__olmo7__planted",
+      "pair": "qwen8__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__olmo7__planted",
+      "started_utc": "2026-10-25T07:49:04.545101+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T09:06:21.246240+00:00",
+      "elapsed_seconds": 2449.728711281001,
+      "id": "seed1__qwen8__olmo7__neutral",
+      "pair": "qwen8__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__qwen8__olmo7__neutral",
+      "started_utc": "2026-10-25T08:25:31.514448+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T09:58:46.522055+00:00",
+      "elapsed_seconds": 3145.255319578995,
+      "id": "seed1__nemo12__olmo7__planted",
+      "pair": "nemo12__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__nemo12__olmo7__planted",
+      "started_utc": "2026-10-25T09:06:21.257076+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T10:48:21.706115+00:00",
+      "elapsed_seconds": 2975.1650521789998,
+      "id": "seed1__nemo12__olmo7__neutral",
+      "pair": "nemo12__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed1__nemo12__olmo7__neutral",
+      "started_utc": "2026-10-25T09:58:46.532496+00:00",
+      "status": "complete",
+      "wave": 1
+    },
+    {
+      "completed_utc": "2026-10-25T11:35:55.026110+00:00",
+      "elapsed_seconds": 2852.157001132,
+      "id": "seed2__qwen8__qwen14__planted",
+      "pair": "qwen8__qwen14",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__qwen14__planted",
+      "started_utc": "2026-10-25T10:48:22.861109+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T12:34:19.147972+00:00",
+      "elapsed_seconds": 3504.1025925310096,
+      "id": "seed2__qwen8__qwen14__neutral",
+      "pair": "qwen8__qwen14",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__qwen14__neutral",
+      "started_utc": "2026-10-25T11:35:55.036911+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T13:27:18.722966+00:00",
+      "elapsed_seconds": 3179.553155693997,
+      "id": "seed2__qwen8__nemo12__planted",
+      "pair": "qwen8__nemo12",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__nemo12__planted",
+      "started_utc": "2026-10-25T12:34:19.161065+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T14:26:47.403378+00:00",
+      "elapsed_seconds": 3568.6623709220003,
+      "id": "seed2__qwen8__nemo12__neutral",
+      "pair": "qwen8__nemo12",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__nemo12__neutral",
+      "started_utc": "2026-10-25T13:27:18.732568+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T15:08:01.101740+00:00",
+      "elapsed_seconds": 2473.676179207003,
+      "id": "seed2__qwen8__olmo7__planted",
+      "pair": "qwen8__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__olmo7__planted",
+      "started_utc": "2026-10-25T14:26:47.416022+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T15:50:30.305811+00:00",
+      "elapsed_seconds": 2549.1833017450117,
+      "id": "seed2__qwen8__olmo7__neutral",
+      "pair": "qwen8__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__qwen8__olmo7__neutral",
+      "started_utc": "2026-10-25T15:08:01.113599+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T16:39:44.865553+00:00",
+      "elapsed_seconds": 2954.5403547830065,
+      "id": "seed2__nemo12__olmo7__planted",
+      "pair": "nemo12__olmo7",
+      "regime": "planted",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__nemo12__olmo7__planted",
+      "started_utc": "2026-10-25T15:50:30.316835+00:00",
+      "status": "complete",
+      "wave": 2
+    },
+    {
+      "completed_utc": "2026-10-25T17:30:10.682679+00:00",
+      "elapsed_seconds": 3025.796549052,
+      "id": "seed2__nemo12__olmo7__neutral",
+      "pair": "nemo12__olmo7",
+      "regime": "neutral",
+      "run_directory": "/home/ubuntu/theseus_cartel_h100_v3/results/campaigns/20261024T212510Z_90dd1059/studies/seed2__nemo12__olmo7__neutral",
+      "started_utc": "2026-10-25T16:39:44.876986+00:00",
+      "status": "complete",
+      "wave": 2
+    }
+  ],
+  "complete_waves": [
+    0,
+    1,
+    2
+  ],
+  "created_utc": "2026-10-24T21:25:10.995259+00:00",
+  "deadline_utc": "2026-10-25T21:25:10.995259+00:00",
+  "identity": {
+    "base": {
+      "data": {
+        "cache_dir": "data/raw",
+        "development_products_per_dataset": 2,
+        "dominicks_upc_url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/upc_csv-files/upcoat.csv",
+        "dominicks_url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/movement_csv-files/woat.zip",
+        "download_timeout_seconds": 180,
+        "expected_sha256": {},
+        "minimum_product_rows": 30,
+        "minimum_product_weeks": 20,
+        "processed_dir": "data/processed",
+        "temporal_fit_fraction": 0.5,
+        "test_products_per_dataset": 6,
+        "uci_url": "https://archive.ics.uci.edu/static/public/502/online%2Bretail%2Bii.zip"
+      },
+      "execution": {
+        "billing_started_utc": null,
+        "hourly_usd": null,
+        "max_cost_usd": null,
+        "max_failed_episode_fraction": 0.05,
+        "max_parallel_episodes": 128,
+        "max_wall_hours": 24,
+        "results_root": "results/campaign_studies"
+      },
+      "experiment": "neutral",
+      "hardware": {
+        "combined_memory_fraction": 0.9,
+        "context_headroom_fraction": 0.25,
+        "cpu_threads_per_engine": 4,
+        "enable_prefix_caching": true,
+        "enforce_eager": false,
+        "expected_gpu": "H100",
+        "expected_min_vram_gib": 75,
+        "max_num_batched_tokens": 8192,
+        "max_num_seqs_cap": 128,
+        "overhead_gib_per_engine": 3.0,
+        "startup_timeout_seconds": 900
+      },
+      "inference": {
+        "autotune_candidates": [
+          8,
+          16,
+          32,
+          64
+        ],
+        "autotune_repeats": 2,
+        "backend": "vllm",
+        "cache_responses": true,
+        "enable_thinking": false,
+        "max_concurrency_per_model": 64,
+        "max_model_len": 4096,
+        "max_output_tokens": 96,
+        "mock_policy": "nash",
+        "request_timeout_seconds": 180,
+        "structured_price_output": true,
+        "temperature": 0.7,
+        "top_k": 20,
+        "top_p": 0.8,
+        "transport_backoff_seconds": 1.0,
+        "transport_retries": 2
+      },
+      "market": {
+        "a0": 0.0,
+        "beta": 100.0,
+        "history_window": 32,
+        "mu": 0.25,
+        "normalized_costs": [
+          1.0,
+          1.0
+        ],
+        "normalized_solver_tolerance": 1e-08,
+        "prompt_significant_digits": 8,
+        "qualities": [
+          2.0,
+          2.0
+        ]
+      },
+      "models": {
+        "founder": {
+          "id": "Qwen/Qwen3-8B",
+          "port": 8100,
+          "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+        },
+        "replacement": {
+          "id": "Qwen/Qwen3-14B",
+          "port": 8101,
+          "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+        }
+      },
+      "project": "theseus_cartel",
+      "protocol": {
+        "arms": [
+          "no_turnover",
+          "simultaneous_full",
+          "simultaneous_delayed",
+          "sequential_full",
+          "sequential_drop_pre",
+          "sequential_joint_reset",
+          "sequential_competitive",
+          "fresh_final",
+          "sequential_shuffle",
+          "sequential_deviation",
+          "simultaneous_notice_placebo",
+          "simultaneous_notice_private",
+          "simultaneous_notice_public"
+        ],
+        "development_seeds": 2,
+        "deviation_probe": {
+          "action_rule": "best_response_to_last_rival",
+          "after_full_turnover_rounds": 8,
+          "baseline_window": 8,
+          "recovery_window": 8,
+          "response_window": 4
+        },
+        "directions": [
+          "forward",
+          "reverse"
+        ],
+        "establishment_threshold": 0.5,
+        "establishment_window": 20,
+        "founder_prefix": "P0",
+        "founder_round_candidates": [
+          64,
+          128,
+          256
+        ],
+        "founder_rounds": 128,
+        "initial_nash_rounds": 1,
+        "newcomer_prefix": "P0",
+        "positive_control_prefix": "PC",
+        "positive_control_rounds": 48,
+        "post_turnover_rounds": 64,
+        "terminal_window": 32,
+        "test_positive_control_rounds": 48,
+        "test_seed_start": 0,
+        "test_seeds": 3,
+        "turnover_gap": 16
+      },
+      "report": {
+        "affiliation": "Independent researcher",
+        "author": "Subramanyam Sahoo"
+      },
+      "schema_version": 3,
+      "seed": 20261025,
+      "statistics": {
+        "alpha": 0.05,
+        "bootstrap_mc_se": 0.005,
+        "minimum_clusters_for_confirmatory_label": 12,
+        "primary_contrasts": [
+          [
+            "sequential_full",
+            "simultaneous_delayed"
+          ],
+          [
+            "sequential_full",
+            "sequential_drop_pre"
+          ],
+          [
+            "sequential_full",
+            "sequential_competitive"
+          ]
+        ],
+        "secondary_contrasts": [
+          [
+            "sequential_full",
+            "sequential_joint_reset"
+          ],
+          [
+            "sequential_full",
+            "fresh_final"
+          ],
+          [
+            "sequential_full",
+            "sequential_shuffle"
+          ],
+          [
+            "sequential_full",
+            "simultaneous_full"
+          ]
+        ]
+      },
+      "upstream": {
+        "commit": "e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8",
+        "directory": "vendor/collusion_hackathon",
+        "url": "https://github.com/poseidon-research/collusion_hackathon.git"
+      }
+    },
+    "source_hash": "671b3279416ea69f1e3d5f2e0582dc9fdef192e87a5204a98dbc36f8c71bbb3a",
+    "spec": {
+      "base_config": "campaign_base.yaml",
+      "budget_hours": 24,
+      "campaign_schema": 1,
+      "hard_stop_utc": "2026-10-26T03:59:00+00:00",
+      "models": {
+        "nemo12": {
+          "family": "Mistral",
+          "id": "mistralai/Mistral-Nemo-Instruct-2407",
+          "revision": "04d8a90549d23fc6bd7f642064003592df51e9b3"
+        },
+        "olmo7": {
+          "family": "OLMo2",
+          "id": "allenai/OLMo-2-1124-7B-Instruct",
+          "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+        },
+        "qwen14": {
+          "family": "Qwen3",
+          "id": "Qwen/Qwen3-14B",
+          "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+        },
+        "qwen8": {
+          "family": "Qwen3",
+          "id": "Qwen/Qwen3-8B",
+          "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+        }
+      },
+      "pairs": [
+        [
+          "qwen8",
+          "qwen14"
+        ],
+        [
+          "qwen8",
+          "nemo12"
+        ],
+        [
+          "qwen8",
+          "olmo7"
+        ],
+        [
+          "nemo12",
+          "olmo7"
+        ]
+      ],
+      "regimes": [
+        "planted",
+        "neutral"
+      ],
+      "target_seeds": 6,
+      "wave_headroom_fraction": 0.2
+    }
+  },
+  "stop_reason": "time_budget_no_complete_wave_expected",
+  "updated_utc": "2026-10-25T17:30:11.957293+00:00",
+  "wave_seconds": {
+    "0": 24518.969652618005,
+    "1": 23670.43735349,
+    "2": 24107.671505066028
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "available": false,
+    "clusters": 1,
+    "left": "sequential_full",
+    "right": "simultaneous_delayed"
+  },
+  {
+    "available": false,
+    "clusters": 1,
+    "left": "sequential_full",
+    "right": "sequential_drop_pre"
+  },
+  {
+    "available": false,
+    "clusters": 1,
+    "left": "sequential_full",
+    "right": "sequential_competitive"
+  }
+]

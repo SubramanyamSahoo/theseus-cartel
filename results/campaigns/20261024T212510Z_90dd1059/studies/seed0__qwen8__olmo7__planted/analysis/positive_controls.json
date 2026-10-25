@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 0,
+    "terminal_gain": 0.7719491669313074
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 0,
+    "terminal_gain": -1.1952225770901421
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 0,
+    "terminal_gain": 0.35337024273820283
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 0,
+    "terminal_gain": -0.2511336817682156
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 0,
+    "terminal_gain": -9.57781393617e-09
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 0,
+    "terminal_gain": -0.7665375175034386
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 0,
+    "terminal_gain": -0.017081188832453905
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 0,
+    "terminal_gain": 0.010443274053623521
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 0,
+    "terminal_gain": 2.0586742385201886e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 0,
+    "terminal_gain": -0.6363365376775127
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 0,
+    "terminal_gain": 2.988804295907718e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 0,
+    "terminal_gain": -0.1752285906853991
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 0,
+    "terminal_gain": 0.42594096688901467
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 0,
+    "terminal_gain": -1.893169791539035
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 0,
+    "terminal_gain": -5.431226652282353e-16
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 0,
+    "terminal_gain": -1.901739154879044
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 0,
+    "terminal_gain": 0.6821180586350415
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 0,
+    "terminal_gain": -1.943528392918676
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 0,
+    "terminal_gain": -1.3064134871626707
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 0,
+    "terminal_gain": -1.9341725356427961
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 0,
+    "terminal_gain": -1.9455579267265786
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 0,
+    "terminal_gain": 0.8757318717062921
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 0,
+    "terminal_gain": 0.2527786344316407
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "allenai/OLMo-2-1124-7B-Instruct",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 0,
+    "terminal_gain": -1.1877776265457074
+  }
+]

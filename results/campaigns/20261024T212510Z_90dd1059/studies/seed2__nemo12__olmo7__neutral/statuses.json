@@ -1,0 +1,1274 @@
+[
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3574215147__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000007060__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 2,
+    "trial": "dominicks_oat_1800063070__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000002620__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_85167B__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000026289__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3574215186__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_22897__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_40046A__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_72131__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_21826__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_85167B__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_47310M__reverse__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_72131__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000002620__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000007060__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_22897__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3574215147__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_47310M__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_21826__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 2,
+    "trial": "uci_retail_ii_40046A__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3574215186__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": false,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 2,
+    "trial": "dominicks_oat_1800063070__forward__2"
+  },
+  {
+    "arms": {
+      "fresh_final": {
+        "ok": true
+      },
+      "no_turnover": {
+        "ok": true
+      },
+      "sequential_competitive": {
+        "ok": true
+      },
+      "sequential_deviation": {
+        "ok": true
+      },
+      "sequential_drop_pre": {
+        "ok": true
+      },
+      "sequential_full": {
+        "ok": true
+      },
+      "sequential_joint_reset": {
+        "ok": true
+      },
+      "sequential_shuffle": {
+        "ok": true
+      },
+      "simultaneous_delayed": {
+        "ok": true
+      },
+      "simultaneous_full": {
+        "ok": true
+      },
+      "simultaneous_notice_placebo": {
+        "ok": true
+      },
+      "simultaneous_notice_private": {
+        "ok": true
+      },
+      "simultaneous_notice_public": {
+        "ok": true
+      }
+    },
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "founder_established": true,
+    "parent_failed": false,
+    "positive_control": {
+      "ok": true
+    },
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 2,
+    "trial": "dominicks_oat_3000026289__forward__2"
+  }
+]

@@ -1,0 +1,15 @@
+extends: h100.yaml
+protocol:
+  founder_round_candidates: [64, 128, 256]
+  founder_rounds: 128
+  positive_control_rounds: 48
+  test_positive_control_rounds: 48
+  post_turnover_rounds: 64
+  terminal_window: 32
+  arms: [no_turnover, simultaneous_full, simultaneous_delayed, sequential_full,
+         sequential_drop_pre, sequential_joint_reset, sequential_competitive,
+         fresh_final, sequential_shuffle, sequential_deviation,
+         simultaneous_notice_placebo, simultaneous_notice_private, simultaneous_notice_public]
+execution:
+  max_wall_hours: 24
+  results_root: results/campaign_studies

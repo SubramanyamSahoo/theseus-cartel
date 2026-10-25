@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "theseus-cartel"
+version = "1.2.0"
+description = "Controlled model-turnover and disclosure experiments on the Apart/Poseidon pricing harness"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.13,<2", "pandas>=2.2,<3",
+  "pyarrow>=17,<23", "openpyxl>=3.1,<4", "PyYAML>=6,<7",
+  "httpx>=0.27,<1", "matplotlib>=3.9,<4", "huggingface-hub>=0.35,<1",
+  "psutil>=6,<8", "reportlab>=4,<5"
+]
+
+[project.optional-dependencies]
+gpu = ["vllm==0.11.0", "transformers==4.57.1"]
+dev = ["pytest>=8,<9", "ruff>=0.12,<1"]
+tokenizer = ["transformers==4.57.1", "jinja2>=3.1,<4"]
+
+[project.scripts]
+theseus = "theseus.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/theseus"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]
+

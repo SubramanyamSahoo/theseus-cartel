@@ -1,0 +1,86 @@
+{
+  "cleaning": {
+    "dominicks_oat": {
+      "cost_interpretation": "Average acquisition cost used as a simulation cost proxy, not marginal cost",
+      "cost_observed": true,
+      "currency": "USD",
+      "full_precision_hex": true,
+      "input_rows": 1333465,
+      "source_sha256": "3d48ed2e50dfc84aed8b89ca405cdcdf5cba04483e49813d5726cb7fd36b641e",
+      "valid_rows": 981037
+    },
+    "uci_retail_ii": {
+      "cost_observed": false,
+      "currency": "GBP",
+      "excluded_customer_fields": true,
+      "input_rows": 1067371,
+      "source_sha256": "186a2ff35d9294b3c49c3c53691168a30358b025f4a29754c98f9b359c52c058",
+      "valid_rows": 1036876
+    }
+  },
+  "created_utc": "2026-10-24T21:22:35.448938+00:00",
+  "fingerprint": "f7963a487dd538d7116d2cf46337676eac4eccbd642c649edda28ee9157e86f9",
+  "scenarios_sha256": "7d80057b821a9fb846f96ab9abe1b8722db91afd4c48c1898d9b82efb27c1df8",
+  "scope": "Observed retail contexts; counterfactual outcomes are simulated, not empirical collusion labels",
+  "source_info": {
+    "dominicks_oat": {
+      "citation": "Kilts Center for Marketing, University of Chicago Booth. Dominick's Finer Foods scanner data.",
+      "page": "https://www.chicagobooth.edu/research/kilts/research-data/dominicks",
+      "terms": "Academic research use; see source terms. Raw records are not redistributed in this project."
+    },
+    "uci_retail_ii": {
+      "citation": "Chen, D. Online Retail II. UCI Machine Learning Repository. DOI:10.24432/C5CG6D.",
+      "page": "https://archive.ics.uci.edu/dataset/502/online+retail+ii",
+      "terms": "CC BY 4.0"
+    }
+  },
+  "sources": {
+    "dominicks_oat.zip": {
+      "bytes": 7736663,
+      "sha256": "665d5ef00abacf72eb2f410dbc0c8c1e2f5016a08716dd331609804d1d37aa02",
+      "url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/movement_csv-files/woat.zip"
+    },
+    "dominicks_upc.csv": {
+      "bytes": 5161,
+      "sha256": "494e7e3d770e1b1386741029667364b74d6cd46bc364848c7f8ad0375225b361",
+      "url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/upc_csv-files/upcoat.csv"
+    },
+    "uci_retail_ii.zip": {
+      "bytes": 45622418,
+      "sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+      "url": "https://archive.ics.uci.edu/static/public/502/online%2Bretail%2Bii.zip"
+    }
+  },
+  "splits": {
+    "dominicks_oat": {
+      "development": [
+        "3574215185",
+        "1313000602"
+      ],
+      "eligible_products": 85,
+      "test": [
+        "3000026289",
+        "3574215186",
+        "1800063070",
+        "3000007060",
+        "3574215147",
+        "3000002620"
+      ]
+    },
+    "uci_retail_ii": {
+      "development": [
+        "20846",
+        "22618"
+      ],
+      "eligible_products": 3137,
+      "test": [
+        "21826",
+        "22897",
+        "40046A",
+        "72131",
+        "47310M",
+        "85167B"
+      ]
+    }
+  }
+}

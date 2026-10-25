@@ -1,0 +1,11 @@
+{
+  "backend": "vllm",
+  "cluster_gate_passed": true,
+  "complete_arms": 312,
+  "complete_test_positive_controls": 24,
+  "failed_test_positive_controls": 0,
+  "minimum_clusters": 12,
+  "missing_arms": 0,
+  "planned_arms": 312,
+  "planned_test_positive_controls": 24
+}

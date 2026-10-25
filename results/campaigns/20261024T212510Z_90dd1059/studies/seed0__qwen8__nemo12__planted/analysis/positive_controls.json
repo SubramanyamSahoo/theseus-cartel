@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 0,
+    "terminal_gain": 0.7719491669313074
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_1800063070",
+    "seed_index": 0,
+    "terminal_gain": 0.12136920913938166
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 0,
+    "terminal_gain": 0.32130919840364136
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000002620",
+    "seed_index": 0,
+    "terminal_gain": 0.7098348488314237
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 0,
+    "terminal_gain": -9.57781393617e-09
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000007060",
+    "seed_index": 0,
+    "terminal_gain": 0.47424012356732187
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 0,
+    "terminal_gain": 0.07834000952860369
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3000026289",
+    "seed_index": 0,
+    "terminal_gain": 2.3412435466477205e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 0,
+    "terminal_gain": 2.0586742385201886e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215147",
+    "seed_index": 0,
+    "terminal_gain": -0.9645127196208485
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 0,
+    "terminal_gain": 2.988804295907718e-08
+  },
+  {
+    "dataset": "dominicks_oat",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "dominicks_oat_3574215186",
+    "seed_index": 0,
+    "terminal_gain": 0.7235441003921688
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 0,
+    "terminal_gain": 0.42594096688901467
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_21826",
+    "seed_index": 0,
+    "terminal_gain": -0.8657323534757708
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 0,
+    "terminal_gain": -5.431226652282353e-16
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_22897",
+    "seed_index": 0,
+    "terminal_gain": -1.3357131637518087
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 0,
+    "terminal_gain": 0.6686061641466069
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_40046A",
+    "seed_index": 0,
+    "terminal_gain": 0.46208745117193434
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 0,
+    "terminal_gain": -1.58701949832605
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_47310M",
+    "seed_index": 0,
+    "terminal_gain": -1.3091270901299188
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 0,
+    "terminal_gain": -1.9455579267265786
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_72131",
+    "seed_index": 0,
+    "terminal_gain": 0.1801630653143656
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "forward",
+    "model": "Qwen/Qwen3-8B",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 0,
+    "terminal_gain": 0.2527786344316407
+  },
+  {
+    "dataset": "uci_retail_ii",
+    "direction": "reverse",
+    "model": "mistralai/Mistral-Nemo-Instruct-2407",
+    "ok": true,
+    "prefix": "PC",
+    "scenario": "uci_retail_ii_85167B",
+    "seed_index": 0,
+    "terminal_gain": -0.5273372310756441
+  }
+]

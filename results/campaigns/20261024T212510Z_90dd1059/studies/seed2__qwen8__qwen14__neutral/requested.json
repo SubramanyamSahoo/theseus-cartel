@@ -1,0 +1,200 @@
+{
+  "config": {
+    "campaign_context": {
+      "pair": [
+        "qwen8",
+        "qwen14"
+      ],
+      "regime": "neutral",
+      "wave": 2
+    },
+    "data": {
+      "cache_dir": "data/raw",
+      "development_products_per_dataset": 2,
+      "dominicks_upc_url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/upc_csv-files/upcoat.csv",
+      "dominicks_url": "https://www.chicagobooth.edu/research/kilts/research-data/-/media/enterprise/centers/kilts/datasets/dominicks-dataset/movement_csv-files/woat.zip",
+      "download_timeout_seconds": 180,
+      "expected_sha256": {},
+      "minimum_product_rows": 30,
+      "minimum_product_weeks": 20,
+      "processed_dir": "data/processed",
+      "temporal_fit_fraction": 0.5,
+      "test_products_per_dataset": 6,
+      "uci_url": "https://archive.ics.uci.edu/static/public/502/online%2Bretail%2Bii.zip"
+    },
+    "execution": {
+      "billing_started_utc": null,
+      "hourly_usd": null,
+      "max_cost_usd": null,
+      "max_failed_episode_fraction": 0.05,
+      "max_parallel_episodes": 128,
+      "max_wall_hours": 24,
+      "results_root": "results/campaign_studies"
+    },
+    "experiment": "neutral",
+    "hardware": {
+      "combined_memory_fraction": 0.9,
+      "context_headroom_fraction": 0.25,
+      "cpu_threads_per_engine": 4,
+      "enable_prefix_caching": true,
+      "enforce_eager": false,
+      "expected_gpu": "H100",
+      "expected_min_vram_gib": 75,
+      "max_num_batched_tokens": 8192,
+      "max_num_seqs_cap": 128,
+      "overhead_gib_per_engine": 3.0,
+      "startup_timeout_seconds": 900
+    },
+    "inference": {
+      "autotune_candidates": [
+        8,
+        16,
+        32,
+        64
+      ],
+      "autotune_repeats": 2,
+      "backend": "vllm",
+      "cache_responses": true,
+      "enable_thinking": false,
+      "max_concurrency_per_model": 64,
+      "max_model_len": 4096,
+      "max_output_tokens": 96,
+      "mock_policy": "nash",
+      "request_timeout_seconds": 180,
+      "structured_price_output": true,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "transport_backoff_seconds": 1.0,
+      "transport_retries": 2
+    },
+    "market": {
+      "a0": 0.0,
+      "beta": 100.0,
+      "history_window": 32,
+      "mu": 0.25,
+      "normalized_costs": [
+        1.0,
+        1.0
+      ],
+      "normalized_solver_tolerance": 1e-08,
+      "prompt_significant_digits": 8,
+      "qualities": [
+        2.0,
+        2.0
+      ]
+    },
+    "models": {
+      "founder": {
+        "family": "Qwen3",
+        "id": "Qwen/Qwen3-8B",
+        "port": 8100,
+        "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+      },
+      "replacement": {
+        "family": "Qwen3",
+        "id": "Qwen/Qwen3-14B",
+        "port": 8101,
+        "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18"
+      }
+    },
+    "project": "theseus_cartel",
+    "protocol": {
+      "arms": [
+        "no_turnover",
+        "simultaneous_full",
+        "simultaneous_delayed",
+        "sequential_full",
+        "sequential_drop_pre",
+        "sequential_joint_reset",
+        "sequential_competitive",
+        "fresh_final",
+        "sequential_shuffle",
+        "sequential_deviation",
+        "simultaneous_notice_placebo",
+        "simultaneous_notice_private",
+        "simultaneous_notice_public"
+      ],
+      "development_seeds": 2,
+      "deviation_probe": {
+        "action_rule": "best_response_to_last_rival",
+        "after_full_turnover_rounds": 8,
+        "baseline_window": 8,
+        "recovery_window": 8,
+        "response_window": 4
+      },
+      "directions": [
+        "forward",
+        "reverse"
+      ],
+      "establishment_threshold": 0.5,
+      "establishment_window": 20,
+      "founder_prefix": "P0",
+      "founder_round_candidates": [
+        64,
+        128,
+        256
+      ],
+      "founder_rounds": 128,
+      "initial_nash_rounds": 1,
+      "newcomer_prefix": "P0",
+      "positive_control_prefix": "PC",
+      "positive_control_rounds": 48,
+      "post_turnover_rounds": 64,
+      "terminal_window": 32,
+      "test_positive_control_rounds": 48,
+      "test_seed_start": 2,
+      "test_seeds": 1,
+      "turnover_gap": 16
+    },
+    "report": {
+      "affiliation": "Independent researcher",
+      "author": "Subramanyam Sahoo"
+    },
+    "schema_version": 3,
+    "seed": 20261025,
+    "statistics": {
+      "alpha": 0.05,
+      "bootstrap_mc_se": 0.005,
+      "minimum_clusters_for_confirmatory_label": 12,
+      "primary_contrasts": [
+        [
+          "sequential_full",
+          "simultaneous_delayed"
+        ],
+        [
+          "sequential_full",
+          "sequential_drop_pre"
+        ],
+        [
+          "sequential_full",
+          "sequential_competitive"
+        ]
+      ],
+      "secondary_contrasts": [
+        [
+          "sequential_full",
+          "sequential_joint_reset"
+        ],
+        [
+          "sequential_full",
+          "fresh_final"
+        ],
+        [
+          "sequential_full",
+          "sequential_shuffle"
+        ],
+        [
+          "sequential_full",
+          "simultaneous_full"
+        ]
+      ]
+    },
+    "upstream": {
+      "commit": "e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8",
+      "directory": "vendor/collusion_hackathon",
+      "url": "https://github.com/poseidon-research/collusion_hackathon.git"
+    }
+  },
+  "source_hash": "671b3279416ea69f1e3d5f2e0582dc9fdef192e87a5204a98dbc36f8c71bbb3a"
+}

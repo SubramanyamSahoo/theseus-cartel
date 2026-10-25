@@ -1,0 +1,338 @@
+[
+  {
+    "calibration_weeks": 75,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "HEALTH VALLEY FIBER",
+    "fit_last_week": "180",
+    "fit_median_price": 3.25,
+    "heldout_first_week": "181",
+    "heldout_median_price": 3.25,
+    "heldout_weeks": 76,
+    "id": "dominicks_oat_3574215185",
+    "normalized_costs": [
+      0.7101999999999999,
+      0.7101999999999999
+    ],
+    "price_scale": 3.25,
+    "product": "3574215185",
+    "split": "development",
+    "volume_scale": 30.0
+  },
+  {
+    "calibration_weeks": 152,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "NABISCO CREAM OF WHT",
+    "fit_last_week": "244",
+    "fit_median_price": 2.8743530316344463,
+    "heldout_first_week": "245",
+    "heldout_median_price": 3.310860927152318,
+    "heldout_weeks": 153,
+    "id": "dominicks_oat_1313000602",
+    "normalized_costs": [
+      0.8269831332973722,
+      0.8269831332973722
+    ],
+    "price_scale": 2.8743530316344463,
+    "product": "1313000602",
+    "split": "development",
+    "volume_scale": 329.0
+  },
+  {
+    "calibration_weeks": 21,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "QUAKER QK N HRTY BRW",
+    "fit_last_week": "378",
+    "fit_median_price": 3.144336,
+    "heldout_first_week": "379",
+    "heldout_median_price": 3.1490052356020946,
+    "heldout_weeks": 21,
+    "id": "dominicks_oat_3000026289",
+    "normalized_costs": [
+      0.719091466946658,
+      0.719091466946658
+    ],
+    "price_scale": 3.144336,
+    "product": "3000026289",
+    "split": "test",
+    "volume_scale": 540.0
+  },
+  {
+    "calibration_weeks": 27,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "HV OAT BRAN FLAKES W",
+    "fit_last_week": "241",
+    "fit_median_price": 3.59,
+    "heldout_first_week": "242",
+    "heldout_median_price": 3.59,
+    "heldout_weeks": 27,
+    "id": "dominicks_oat_3574215186",
+    "normalized_costs": [
+      0.7218,
+      0.7218
+    ],
+    "price_scale": 3.59,
+    "product": "3574215186",
+    "split": "test",
+    "volume_scale": 7.0
+  },
+  {
+    "calibration_weeks": 152,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "PILS FARINA",
+    "fit_last_week": "244",
+    "fit_median_price": 2.175809133662322,
+    "heldout_first_week": "245",
+    "heldout_median_price": 2.5580441640378546,
+    "heldout_weeks": 153,
+    "id": "dominicks_oat_1800063070",
+    "normalized_costs": [
+      0.7569763924209882,
+      0.7569763924209882
+    ],
+    "price_scale": 2.175809133662322,
+    "product": "1800063070",
+    "split": "test",
+    "volume_scale": 773.5
+  },
+  {
+    "calibration_weeks": 152,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "QUAKER HOT OAT BRAN",
+    "fit_last_week": "244",
+    "fit_median_price": 2.0893766964581264,
+    "heldout_first_week": "245",
+    "heldout_median_price": 2.305720720720721,
+    "heldout_weeks": 153,
+    "id": "dominicks_oat_3000007060",
+    "normalized_costs": [
+      0.796658971737754,
+      0.796658971737754
+    ],
+    "price_scale": 2.0893766964581264,
+    "product": "3000007060",
+    "split": "test",
+    "volume_scale": 607.0
+  },
+  {
+    "calibration_weeks": 75,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "HEALTH VLY FF TRPCL",
+    "fit_last_week": "180",
+    "fit_median_price": 2.69,
+    "heldout_first_week": "181",
+    "heldout_median_price": 2.69,
+    "heldout_weeks": 76,
+    "id": "dominicks_oat_3574215147",
+    "normalized_costs": [
+      0.7216,
+      0.7216
+    ],
+    "price_scale": 2.69,
+    "product": "3574215147",
+    "split": "test",
+    "volume_scale": 63.0
+  },
+  {
+    "calibration_weeks": 97,
+    "cost_method": "recorded_average_acquisition_cost_proxy",
+    "dataset": "dominicks_oat",
+    "demand_identified_from_transactions": false,
+    "description": "$QUAKER KIDS CHOICE",
+    "fit_last_week": "299",
+    "fit_median_price": 3.0532135306553907,
+    "heldout_first_week": "300",
+    "heldout_median_price": 3.128578546515766,
+    "heldout_weeks": 98,
+    "id": "dominicks_oat_3000002620",
+    "normalized_costs": [
+      0.766110844569564,
+      0.766110844569564
+    ],
+    "price_scale": 3.0532135306553907,
+    "product": "3000002620",
+    "split": "test",
+    "volume_scale": 392.0
+  },
+  {
+    "calibration_weeks": 39,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "ZINC HEART LATTICE T-LIGHT HOLDER",
+    "fit_last_week": "2010-11-22",
+    "fit_median_price": 1.25,
+    "heldout_first_week": "2010-11-29",
+    "heldout_median_price": 1.25,
+    "heldout_weeks": 39,
+    "id": "uci_retail_ii_20846",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 0.848650536323385,
+    "product": "20846",
+    "split": "development",
+    "volume_scale": 13.0
+  },
+  {
+    "calibration_weeks": 25,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "COOKING SET RETROSPOT",
+    "fit_last_week": "2010-08-23",
+    "fit_median_price": 9.95,
+    "heldout_first_week": "2010-08-30",
+    "heldout_median_price": 9.95,
+    "heldout_weeks": 25,
+    "id": "uci_retail_ii_22618",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 6.755258269134144,
+    "product": "22618",
+    "split": "development",
+    "volume_scale": 11.0
+  },
+  {
+    "calibration_weeks": 30,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "EIGHT PIECE DINOSAUR SET",
+    "fit_last_week": "2010-07-05",
+    "fit_median_price": 1.25,
+    "heldout_first_week": "2010-07-12",
+    "heldout_median_price": 1.25,
+    "heldout_weeks": 31,
+    "id": "uci_retail_ii_21826",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 0.848650536323385,
+    "product": "21826",
+    "split": "test",
+    "volume_scale": 17.0
+  },
+  {
+    "calibration_weeks": 31,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "OVEN MITT APPLE DESIGN",
+    "fit_last_week": "2011-04-25",
+    "fit_median_price": 1.4500000000000002,
+    "heldout_first_week": "2011-05-02",
+    "heldout_median_price": 1.45,
+    "heldout_weeks": 32,
+    "id": "uci_retail_ii_22897",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 0.9844346221351267,
+    "product": "22897",
+    "split": "test",
+    "volume_scale": 29.0
+  },
+  {
+    "calibration_weeks": 19,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "RED DAISY PAPER LAMPSHADE",
+    "fit_last_week": "2010-05-17",
+    "fit_median_price": 1.8099999999999998,
+    "heldout_first_week": "2010-05-31",
+    "heldout_median_price": 1.25,
+    "heldout_weeks": 19,
+    "id": "uci_retail_ii_40046A",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 1.2288459765962614,
+    "product": "40046A",
+    "split": "test",
+    "volume_scale": 3.0
+  },
+  {
+    "calibration_weeks": 17,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "COLUMBIAN CANDLE RECTANGLE",
+    "fit_last_week": "2010-10-18",
+    "fit_median_price": 1.95,
+    "heldout_first_week": "2010-11-08",
+    "heldout_median_price": 1.95,
+    "heldout_weeks": 17,
+    "id": "uci_retail_ii_72131",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 1.3238948366644805,
+    "product": "72131",
+    "split": "test",
+    "volume_scale": 6.0
+  },
+  {
+    "calibration_weeks": 35,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "SMALL POP BOX,FUNKY MONKEY",
+    "fit_last_week": "2011-01-03",
+    "fit_median_price": 1.25,
+    "heldout_first_week": "2011-01-10",
+    "heldout_median_price": 1.3235324675324676,
+    "heldout_weeks": 36,
+    "id": "uci_retail_ii_47310M",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 0.848650536323385,
+    "product": "47310M",
+    "split": "test",
+    "volume_scale": 4.0
+  },
+  {
+    "calibration_weeks": 17,
+    "cost_method": "structural_cost_assumption_from_original_game",
+    "dataset": "uci_retail_ii",
+    "demand_identified_from_transactions": false,
+    "description": "BLACK GRAND BAROQUE PHOTO FRAME",
+    "fit_last_week": "2010-06-28",
+    "fit_median_price": 4.25,
+    "heldout_first_week": "2010-07-05",
+    "heldout_median_price": 4.25,
+    "heldout_weeks": 17,
+    "id": "uci_retail_ii_85167B",
+    "normalized_costs": [
+      1.0,
+      1.0
+    ],
+    "price_scale": 2.885411823499509,
+    "product": "85167B",
+    "split": "test",
+    "volume_scale": 8.0
+  }
+]
