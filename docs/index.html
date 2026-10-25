@@ -11,8 +11,24 @@
 <link rel="canonical" href="https://subramanyamsahoo.github.io/theseus-cartel/">
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
+
+<!-- Theseus reading enhancements v2 -->
+<link rel="stylesheet" href="enhancements.css">
+<script>
+try {
+  const t = localStorage.getItem('theseus-theme');
+  document.documentElement.dataset.theme =
+    ['light','dark'].includes(t)
+      ? t
+      : matchMedia('(prefers-color-scheme:dark)').matches
+        ? 'dark'
+        : 'light';
+} catch {}
+</script>
+<script src="enhancements.js" defer></script>
+
 </head>
-<body>
+<body><div class="reading-progress" aria-hidden="true"><span></span></div>
 <a class="skip" href="#article">Skip to the article</a>
 
 <header class="mobile">
@@ -44,6 +60,16 @@
 
 <main id="article">
 <article>
+
+<div class="reading-tools" data-theseus-tools>
+  <span>A research note</span>
+  <div class="reading-actions">
+    <button id="theme-toggle" aria-pressed="false">Dark mode</button>
+    <button id="share-article">Copy link</button>
+    <button id="print-article">Print page</button>
+  </div>
+</div>
+
 <header class="hero" id="top">
 <p class="eyebrow">AI collusion · Agent replacement · Open research</p>
 <h1>The cartel after<br>its members</h1>
@@ -60,6 +86,28 @@
 <a href="#citation">Cite ↓</a>
 </div>
 </header>
+
+
+<div class="reader-guide" aria-labelledby="guide-title">
+  <h2 id="guide-title">Start here · the study in one minute</h2>
+  <div class="guide-links">
+    <a href="#question">
+      <span>01 / The question</span>
+      <strong>Can behavior outlive its founders?</strong>
+      <small>Separate agent replacement from inherited history.</small>
+    </a>
+    <a href="#design">
+      <span>02 / The design</span>
+      <strong>Replace the agents. Change the record.</strong>
+      <small>Four checkpoints and thirteen matched intervention branches.</small>
+    </a>
+    <a href="#results">
+      <span>03 / The finding</span>
+      <strong>The central question remains open.</strong>
+      <small>No primary comparison passes the declared adjusted test.</small>
+    </a>
+  </div>
+</div>
 
 <section class="overview" id="overview">
 <h2 class="small-title">Overview</h2>
@@ -162,6 +210,33 @@
 <h2><span class="num">03</span>What the run shows</h2>
 <p>The campaign completed 3 balanced seed waves: <strong>24 blocks and 7,488 intervention branches</strong>. It stopped under the predefined time-budget rule before attempting another complete wave. Recorded intervention execution failures: 0.</p>
 <p>Each primary contrast contains 288 matched trials across twelve product contexts. The smallest Holm-adjusted <i>p</i>-value is <strong>0.3135</strong>. These tests do not establish a reliable pooled effect of the specified history or notice interventions.</p>
+
+<div class="explorer" id="result-explorer" hidden>
+  <div class="explorer-top">
+    <h3>Explore a primary comparison</h3>
+    <span>Recorded results</span>
+  </div>
+  <label for="contrast-select">Choose a research question</label>
+  <select id="contrast-select">
+    <option value="history_reset">A · Does inherited history matter?</option>
+    <option value="public_vs_private_first_price">B · Does the announcement change the first price?</option>
+    <option value="public_vs_placebo_persistence">C · Does a public notice change later behavior?</option>
+  </select>
+  <p class="explorer-summary" id="contrast-meaning"></p>
+  <div class="explorer-chart" id="explorer-chart"></div>
+  <div class="estimate-pair" id="estimate-pair"
+       aria-live="polite" aria-atomic="true"></div>
+  <p class="explorer-note" id="explorer-note"></p>
+  <p class="explorer-meta" id="explorer-meta"></p>
+  <a class="explorer-source" href="assets/primary_effects.json">
+    Inspect the source data ↗
+  </a>
+</div>
+<p id="explorer-load-note" class="note" hidden>
+  The explorer could not load. The recorded estimates remain available
+  in the table below.
+</p>
+
 <figure>
 <button class="zoom" aria-label="Enlarge primary results">
 <img src="assets/primary-effects.svg" alt="Six primary effect estimates and recorded bootstrap intervals; exact values appear in the table below.">
@@ -246,7 +321,7 @@
   howpublished = {Open research project},
   url = {https://github.com/SubramanyamSahoo/theseus-cartel}
 }</pre>
-</div>
+</div><a class="citation-download" href="assets/theseus-cartel.bib" download>Download BibTeX ↓</a>
 <p id="copy-status" class="status" role="status"></p>
 </section>
 
@@ -261,5 +336,5 @@
 <button id="close-figure">Close ×</button>
 <img src="assets/primary-effects.svg" alt="Enlarged primary effect estimates">
 </dialog>
-</body>
+<div id="share-status" class="share-status" role="status"></div></body>
 </html>
