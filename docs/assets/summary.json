@@ -1,0 +1,14 @@
+{
+  "backend": "vllm",
+  "cluster_gate_passed": true,
+  "complete_balanced_waves": [
+    0,
+    1,
+    2
+  ],
+  "completed_blocks": 24,
+  "primary_family_size": 6,
+  "scope": "Fixed models, contexts, simulator, and protocol. Product clustering does not turn shared normalized games into independent economies.",
+  "source_hash": "671b3279416ea69f1e3d5f2e0582dc9fdef192e87a5204a98dbc36f8c71bbb3a",
+  "target_waves": 6
+}

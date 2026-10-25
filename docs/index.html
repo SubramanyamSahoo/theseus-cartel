@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Theseus Cartel · The Cartel After Its Members</title>
+<meta name="description" content="Can a pricing convention survive the replacement of every AI agent? A study of agent replacement, inherited history, and pricing behavior.">
+<meta property="og:title" content="The Cartel After Its Members">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://subramanyamsahoo.github.io/theseus-cartel/">
+<link rel="canonical" href="https://subramanyamsahoo.github.io/theseus-cartel/">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#article">Skip to the article</a>
+
+<header class="mobile">
+<a href="#top">Theseus Cartel</a>
+<button id="menu" aria-controls="nav" aria-expanded="false">Contents</button>
+</header>
+<button class="shade" aria-label="Close contents" tabindex="-1"></button>
+
+<aside id="nav" aria-label="Article navigation">
+<a class="brand" href="#top"><b>ϴ</b>Theseus Cartel</a>
+<p class="tag">An open research study<br>on AI agent collusion</p>
+<p class="nav-label">On this page</p>
+<nav>
+<a href="#overview"><span>00</span>Overview</a>
+<a href="#question"><span>01</span>The question</a>
+<a href="#design"><span>02</span>Experimental design</a>
+<a href="#results"><span>03</span>Recorded results</a>
+<a href="#controls"><span>04</span>Controls &amp; interpretation</a>
+<a href="#limits"><span>05</span>What this can tell us</a>
+<a href="#reproduce"><span>06</span>Reproduce the study</a>
+<a href="#citation"><span>07</span>Citation</a>
+</nav>
+<div class="nav-bottom">
+<a href="assets/report_draft.pdf">Report draft ↗</a>
+<a href="https://github.com/SubramanyamSahoo/theseus-cartel">Open code ↗</a>
+<p>October 2026<br>Subramanyam Sahoo</p>
+</div>
+</aside>
+
+<main id="article">
+<article>
+<header class="hero" id="top">
+<p class="eyebrow">AI collusion · Agent replacement · Open research</p>
+<h1>The cartel after<br>its members</h1>
+<p class="subtitle">Can a pricing convention survive the<br>replacement of every agent?</p>
+<div class="byline">
+<a href="https://github.com/SubramanyamSahoo">Subramanyam Sahoo</a>
+<small>Independent AI safety researcher</small>
+</div>
+<p class="date">AI Collusion Research Sprint · October 2026</p>
+<div class="buttons">
+<a href="assets/report_draft.pdf">Read the draft ↗</a>
+<a href="https://github.com/SubramanyamSahoo/theseus-cartel">Code ↗</a>
+<a href="#results">Results ↓</a>
+<a href="#citation">Cite ↓</a>
+</div>
+</header>
+
+<section class="overview" id="overview">
+<h2 class="small-title">Overview</h2>
+<p>Replacing an AI agent changes who acts next. It need not change the history that the next agent sees. This study asks whether pricing behavior can persist through that history after <em>every founding agent has been replaced</em>, and whether a truthful announcement of replacement changes what happens next.</p>
+<p>We study repeated pricing with four language-model checkpoints, both directions of replacement, and thirteen matched interventions. Each intervention branches from the same founder trajectory. Neutral and collusion-instructed founders are analyzed separately.</p>
+<div class="finding">
+<strong>The result in brief</strong>
+<p>None of the six primary comparisons passes the declared Holm-adjusted test at α = .05. The results leave the central persistence question unresolved. Positive controls also show why completing a run is not enough to establish a cartel.</p>
+</div>
+<div class="facts">
+<div><b>4</b><span>model checkpoints</span></div>
+<div><b>3</b><span>completed seed waves</span></div>
+<div><b>13</b><span>intervention branches</span></div>
+<div><b>7,488</b><span>branches completed</span></div>
+</div>
+</section>
+
+<section id="question">
+<h2><span class="num">01</span>What survives replacement?</h2>
+<p>The Ship of Theseus asks whether an object remains the same after all its parts change. For interacting AI agents, the practical question is sharper: <strong>can a shared behavioral pattern survive when none of its original participants remains?</strong></p>
+<p>A newcomer may encounter old prices and outcomes, even when it has no private memory of the agents that produced them. That inherited record could carry a convention. It could also produce ordinary price anchoring. The experiment separates changes to the agents from changes to the information they inherit.</p>
+<figure>
+<div class="figure-head"><span>Sequential replacement</span><span>Design schematic</span></div>
+<div class="stages">
+<div>
+<small>Before turnover</small>
+<div class="agents"><div class="agent">F₁</div><div class="agent">F₂</div></div>
+<small>Two founding agents</small>
+</div>
+<span class="arrow">→</span>
+<div>
+<small>First replacement</small>
+<div class="agents"><div class="agent new">N₁</div><div class="agent">F₂</div></div>
+<small>One neutral newcomer</small>
+</div>
+<span class="arrow">→</span>
+<div>
+<small>Full replacement</small>
+<div class="agents"><div class="agent new">N₁</div><div class="agent new">N₂</div></div>
+<small>No founders remain</small>
+</div>
+</div>
+<div class="history" id="history" aria-live="polite">Earlier prices and outcomes remain available after full replacement.</div>
+<div class="toggle">
+<button data-history="retain" aria-pressed="true">Retain history</button>
+<button data-history="reset" aria-pressed="false">Joint reset</button>
+</div>
+<figcaption><strong>Figure 1.</strong> Agent identity and inherited observations are different intervention targets. This toggle illustrates a design choice, not an observed outcome. No model weights are transferred.</figcaption>
+</figure>
+</section>
+
+<section id="design">
+<h2><span class="num">02</span>The experiment</h2>
+<p>Two simulated sellers repeatedly choose prices in a shared demand environment. A founder trajectory is generated first, then copied into matched branches. The branches vary replacement timing, retained history, or the information given to the newcomers.</p>
+<div class="questions">
+<div><h3>A. Does inherited history matter?</h3><p>Compare sequential replacement with the original record retained against sequential replacement with a joint history reset.</p></div>
+<div><h3>B. Does the announcement matter?</h3><p>Compare public and private replacement notices on the first successor action, before the new histories diverge.</p></div>
+<div><h3>C. Does a notice change later behavior?</h3><p>Compare a public replacement notice against an administrative placebo, using profit gain in the terminal window.</p></div>
+</div>
+<p>These three comparisons are evaluated separately for neutral and collusion-instructed founders, giving six predeclared primary tests. All founder histories enter the primary analysis, including histories that did not meet the formation criterion.</p>
+
+<h3>Four checkpoints, three model families</h3>
+<div class="scroll" tabindex="0" role="region" aria-label="Model checkpoints">
+<table>
+<thead><tr><th>Checkpoint</th><th>Family</th><th>Parameters</th></tr></thead>
+<tbody>
+<tr><td><a href="https://huggingface.co/Qwen/Qwen3-8B">Qwen3-8B</a></td><td>Qwen</td><td>8B</td></tr>
+<tr><td><a href="https://huggingface.co/Qwen/Qwen3-14B">Qwen3-14B</a></td><td>Qwen</td><td>14B</td></tr>
+<tr><td><a href="https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407">Mistral-NeMo-Instruct</a></td><td>Mistral</td><td>12B</td></tr>
+<tr><td><a href="https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct">OLMo-2-7B-Instruct</a></td><td>OLMo</td><td>7B</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">Four model pairs are evaluated in both replacement directions. Models use native chat templates and a common price-only output grammar. There is no model training or reasoning scratchpad.</p>
+
+<details>
+<summary>View all thirteen intervention branches</summary>
+<ul>
+<li>No turnover</li>
+<li>Immediate simultaneous replacement</li>
+<li>Delayed simultaneous replacement</li>
+<li>Sequential replacement with history retained</li>
+<li>Sequential replacement with pre-entry history removed</li>
+<li>Sequential replacement with a joint history reset</li>
+<li>Sequential replacement with competitive history</li>
+<li>Fresh agents at the final turnover point</li>
+<li>Sequential replacement with shuffled history</li>
+<li>Sequential replacement with a deviation probe</li>
+<li>Simultaneous replacement with an administrative placebo</li>
+<li>Simultaneous replacement with private notices</li>
+<li>Simultaneous replacement with a public notice</li>
+</ul>
+</details>
+
+<h3>Real retail contexts, simulated demand</h3>
+<p>UCI Online Retail II and Dominick’s oatmeal data supply twelve product contexts, descriptions, price scales, and available cost proxies. The demand function remains assumed. These inputs do not turn the simulation into an estimate of real-world cartel behavior or twelve independently identified economies.</p>
+</section>
+
+<section id="results">
+<h2><span class="num">03</span>What the run shows</h2>
+<p>The campaign completed 3 balanced seed waves: <strong>24 blocks and 7,488 intervention branches</strong>. It stopped under the predefined time-budget rule before attempting another complete wave. Recorded intervention execution failures: 0.</p>
+<p>Each primary contrast contains 288 matched trials across twelve product contexts. The smallest Holm-adjusted <i>p</i>-value is <strong>0.3135</strong>. These tests do not establish a reliable pooled effect of the specified history or notice interventions.</p>
+<figure>
+<button class="zoom" aria-label="Enlarge primary results">
+<img src="assets/primary-effects.svg" alt="Six primary effect estimates and recorded bootstrap intervals; exact values appear in the table below.">
+<span>Enlarge figure ↗</span>
+</button>
+<figcaption><strong>Figure 2.</strong> Paired effects and dataset-stratified product-cluster bootstrap intervals with Bonferroni tails across six comparisons. Panels use different scales and endpoints. The corresponding Holm-adjusted sign-flip tests are reported below. <a href="assets/primary-effects.svg" download>Download figure</a>.</figcaption>
+</figure>
+
+<h3>The six primary comparisons</h3>
+<div class="filters" aria-label="Filter results">
+<button data-filter="all" aria-pressed="true">All</button>
+<button data-filter="neutral" aria-pressed="false">Neutral</button>
+<button data-filter="planted" aria-pressed="false">Instructed</button>
+</div>
+<p class="status" id="table-status" aria-live="polite">Showing all six primary comparisons.</p>
+<div class="scroll" tabindex="0" role="region" aria-label="Primary estimates; scroll horizontally">
+<table class="effects">
+<thead><tr><th>Comparison</th><th>Founders</th><th>Effect</th><th>Adjusted interval</th><th>Holm p</th></tr></thead>
+<tbody id="effects"><tr data-regime="neutral"><th scope="row">Retained history − joint reset<small>Terminal profit gain</small></th><td>Neutral</td><td>+0.0860</td><td>[-0.2516, 0.4115]</td><td>1.0000</td></tr><tr data-regime="planted"><th scope="row">Retained history − joint reset<small>Terminal profit gain</small></th><td>Instructed</td><td>-0.2666</td><td>[-0.6248, 0.0667]</td><td>0.4443</td></tr><tr data-regime="neutral"><th scope="row">Public − private notice<small>First successor price</small></th><td>Neutral</td><td>-0.2273</td><td>[-0.7005, 0.0883]</td><td>0.6401</td></tr><tr data-regime="planted"><th scope="row">Public − private notice<small>First successor price</small></th><td>Instructed</td><td>-0.1399</td><td>[-0.7512, 0.3763]</td><td>1.0000</td></tr><tr data-regime="neutral"><th scope="row">Public − administrative notice<small>Terminal profit gain</small></th><td>Neutral</td><td>+0.0845</td><td>[0.0047, 0.2056]</td><td>0.3135</td></tr><tr data-regime="planted"><th scope="row">Public − administrative notice<small>Terminal profit gain</small></th><td>Instructed</td><td>+0.0416</td><td>[-0.0097, 0.1086]</td><td>0.4531</td></tr></tbody>
+</table>
+</div>
+<p class="note">“Instructed” is the archive’s <code>planted</code> condition: a founder instruction, not a guarantee of cartel formation. <a href="assets/primary_effects.csv" download>Download estimates (CSV)</a>.</p>
+<h3>Why one interval excludes zero</h3>
+<p>The neutral public-versus-placebo comparison has a positive bootstrap interval, while its Holm-adjusted sign-flip p-value is 0.3135. The interval and test use different inferential procedures; they are not mathematical duals. The primary conclusion follows the declared Holm-adjusted test.</p>
+</section>
+
+<section id="controls">
+<h2><span class="num">04</span>Check the controls, too</h2>
+<p>All 576 positive-control trajectories executed successfully. Their behavior is less reassuring: the collusion instruction did not reliably produce high profits. A null result is harder to interpret when the procedure itself struggles to elicit the behavior it is supposed to test.</p>
+<div class="scroll" tabindex="0" role="region" aria-label="Positive-control outcomes">
+<table class="controls">
+<thead><tr><th>Model</th><th>Trajectories</th><th>Mean terminal profit gain</th></tr></thead>
+<tbody><tr><th scope="row">Qwen3-8B</th><td>216</td><td>-0.0244</td></tr><tr><th scope="row">Qwen3-14B</th><td>72</td><td>+0.0000</td></tr><tr><th scope="row">Mistral-Nemo-Instruct-2407</th><td>144</td><td>+0.0495</td></tr><tr><th scope="row">OLMo-2-1124-7B-Instruct</th><td>144</td><td>-1.0002</td></tr></tbody>
+</table>
+</div>
+<p class="note">Profit gain is normalized relative to the game’s Nash and monopoly benchmarks. Zero corresponds to the Nash benchmark; negative values are possible. These are descriptive model-group means, not independent causal model comparisons. <a href="assets/all_test_controls.csv" download>Inspect all control records</a>.</p>
+<p>Among the main founder histories, <strong>47 of 288 collusion-instructed histories</strong> and <strong>112 of 288 neutral histories</strong> met the recorded formation criterion. Those labels describe a threshold in this protocol, not proof of strategic intent. Every history remains in the primary analysis.</p>
+<blockquote>The central distinction is between replacing the agents and replacing the conditions that shape their behavior.</blockquote>
+<p>History-sensitive pricing alone would not settle whether a convention is strategic. Price copying, repeated numerical anchors, model-specific behavior, and prompt wording remain plausible explanations. The deviation probe and simple countermodels make these alternatives inspectable, but do not eliminate them.</p>
+</section>
+
+<section id="limits">
+<h2><span class="num">05</span>What this can tell us</h2>
+<h3>Absence of significance is not equivalence.</h3>
+<p>The results do not show that replacement always works, that inherited history never matters, or that collusion cannot persist. Uncertainty remains substantial under these checkpoints and this protocol.</p>
+<h3>The environment sets the scope.</h3>
+<p>The study uses four fixed checkpoints, assumed demand, a finite horizon, and a constrained price-only interface. Model-family contrasts also change training, architecture, and chat templates. Real retail inputs provide context, not identified demand or empirical collusion labels.</p>
+<h3>A public notice is not a clean test of common knowledge.</h3>
+<p>Public and private notices differ in wording and salience. The first-action comparison reduces feedback divergence, but it does not identify beliefs, awareness, or intent.</p>
+<h3>The governance question remains useful.</h3>
+<p>If inherited records preserve unwanted behavior, changing the agents alone may be insufficient. This run does not establish such persistence; it supplies a reproducible way to investigate the question and its failure modes.</p>
+</section>
+
+<section id="reproduce">
+<h2><span class="num">06</span>Follow the evidence</h2>
+<p>The source, run metadata, primary estimates, component analyses, and complete response archive are available. Start with coverage and controls, then examine the paired effects and underlying trajectories.</p>
+<div class="resources">
+<a href="https://github.com/SubramanyamSahoo/theseus-cartel">Code &amp; experimental protocol ↗<small>Pinned dependencies, tests, model revisions, and intervention definitions</small></a>
+<a href="assets/report_draft.pdf">Recorded analysis report ↗<small>Generated PDF draft; requires review before submission</small></a>
+<a href="assets/primary_effects.json">Primary estimates ↓<small>Exact effects, intervals, adjusted tests, and inference assumptions · JSON</small></a>
+<a href="assets/coverage.csv" download>Coverage &amp; execution failures ↓<small>All 24 recorded experiment blocks · CSV</small></a>
+<a href="https://github.com/SubramanyamSahoo/theseus-cartel/releases/tag/run-20261024T212510Z_90dd1059">Complete research archive ↗<small>Raw trajectories, cached responses, checksums, and restoration instructions</small></a>
+</div>
+<details>
+<summary>Provenance and reproducibility</summary>
+<p>Campaign: <code>20261024T212510Z_90dd1059</code>.</p>
+<p>The study uses the organizer starter repository at commit <code>e6fb1308dae9cf97ae42aec1c5f7889d9e2291e8</code>, with corrected pricing benchmarks. See the repository protocol and tests for the derivative-scale correction.</p>
+<p>These are the recorded v3 results. Earlier deleted v1 runs are not evidence for this website.</p>
+<p><a href="https://github.com/SubramanyamSahoo/theseus-cartel/blob/main/docs/CAMPAIGN_PROTOCOL.md">Read the protocol</a> · <a href="https://github.com/SubramanyamSahoo/theseus-cartel/blob/main/docs/REFERENCES.md">References</a></p>
+</details>
+</section>
+
+<section id="citation">
+<h2><span class="num">07</span>Cite this project</h2>
+<p>This is an open research project and analysis draft, not a peer-reviewed publication.</p>
+<div class="citation">
+<button id="copy">Copy BibTeX</button>
+<pre id="bib">@misc{sahoo2026theseuscartel,
+  author = {Sahoo, Subramanyam},
+  title = {The Cartel After Its Members},
+  year = {2026},
+  howpublished = {Open research project},
+  url = {https://github.com/SubramanyamSahoo/theseus-cartel}
+}</pre>
+</div>
+<p id="copy-status" class="status" role="status"></p>
+</section>
+
+<footer>
+<span>Theseus Cartel · Subramanyam Sahoo · 2026</span>
+<a href="#top">Back to the beginning ↑</a>
+</footer>
+</article>
+</main>
+
+<dialog aria-label="Primary effect estimates">
+<button id="close-figure">Close ×</button>
+<img src="assets/primary-effects.svg" alt="Enlarged primary effect estimates">
+</dialog>
+</body>
+</html>

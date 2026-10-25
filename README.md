@@ -11,3 +11,10 @@ Stop reason: `time_budget_no_complete_wave_expected`.
 Code, configuration, provenance and component analyses are in this repository. All raw trajectories and response caches are in the attached run release. Reports and scientific conclusions still require review.
 
 The earlier v1 run is unavailable and is not included. README_ORIGINAL.md preserves the original software instructions. Model weights, installed environments and raw external datasets are fetched separately.
+
+
+## Research website
+
+[Open the research website](https://subramanyamsahoo.github.io/theseus-cartel/).
+
+Website source and publishing notes: [docs/WEBSITE.md](docs/WEBSITE.md).
